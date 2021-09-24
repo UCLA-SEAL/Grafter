@@ -39,9 +39,6 @@ series = {ICSE '17}
 
 You can find ICSE 2017 slides [here](http://web.cs.ucla.edu/~miryung/Publications/icse2017-grafter-slides.pdf). 
 
-## Video 
 
-You can find our demo video [here](https://youtu.be/liqAeuM8s3U).
-
-## Demo PAper 
+## Demo Paper 
 You can find our demo paper [here](https://dl.acm.org/doi/10.1145/3183440.3195038). 
