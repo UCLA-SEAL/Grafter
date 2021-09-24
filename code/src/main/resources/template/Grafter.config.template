@@ -1,0 +1,13 @@
+ROOT_DIR=
+SRC_DIR=
+TEST_DIR=
+BIN_SRC_DIR=
+BIN_TEST_DIR=
+COMPILE_COMMAND=
+TEST_COMMAND=
+JUNIT_VERSION=
+BUILD_TOOL=
+MVN_LOCAL_REPO= # optional, please specify when the project is built by maven.
+ANT_LIB= # optional, please specify when the project is built by ant
+ENABLE_CLEAN=
+CLEAN_COMMAND=

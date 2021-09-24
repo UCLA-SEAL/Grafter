@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<group id="2" excluded="false">
+		<clone method="PatternSet.setIncludes" file="/home/troy/SysAssure/dataset/Ant0.0/src/main/org/apache/tools/ant/types/PatternSet.java" start="166" end="174" isTest="false">
+			<test path="/home/troy/SysAssure/dataset/Ant0.0/src/testcases0/org/apache/tools/ant/taskdefs/FilterTest.java">FilterTest.test6</test>
+			<test path="/home/troy/SysAssure/dataset/Ant0.0/src/testcases0/org/apache/tools/ant/taskdefs/FilterTest.java">FilterTest.test8</test>
+			<test path="/home/troy/SysAssure/dataset/Ant0.0/src/testcases0/org/apache/tools/ant/types/PatternSetTest.java">PatternSetTest.testCircularReferenceCheck</test>
+			<test path="/home/troy/SysAssure/dataset/Ant0.0/src/testcases0/org/apache/tools/ant/types/PatternSetTest.java">PatternSetTest.testEmptyElementIfIsReference</test>
+		</clone>
+		<clone method="PatternSet.setExcludes" file="/home/troy/SysAssure/dataset/Ant0.0/src/main/org/apache/tools/ant/types/PatternSet.java" start="184" end="192" isTest="false">
+			<test path="/home/troy/SysAssure/dataset/Ant0.0/src/testcases0/org/apache/tools/ant/types/PatternSetTest.java">PatternSetTest.testEmptyElementIfIsReference</test>
+		</clone>
+	</group>
+	<group id="20" excluded="false">
+		<clone method="Delete.removeDir" file="/home/troy/SysAssure/dataset/Ant0.0/src/main/org/apache/tools/ant/taskdefs/Delete.java" start="257" end="273" isTest="false">
+			<test path="/home/troy/SysAssure/dataset/Ant0.0/src/testcases0/org/apache/tools/ant/taskdefs/DeleteTest.java">DeleteTest.test4</test>
+		</clone>
+		<clone method="Deltree.removeDir" file="/home/troy/SysAssure/dataset/Ant0.0/src/main/org/apache/tools/ant/taskdefs/Deltree.java" start="116" end="131" isTest="false">
+		</clone>
+	</group>
+	<group id="23" excluded="false">
+		<clone method="ListedHashTree.add" file="/home/troy/SysAssure/dataset/jmeter0.0/src/core/org/apache/jmeter/util/ListedHashTree.java" start="588" end="602" isTest="false">
+			<test path="/home/troy/SysAssure/dataset/jmeter0.0/src/core/org/apache/jmeter/engine/TreeCloner.java">TreeClonerTest.testCloning</test>
+		</clone>
+		<clone method="HashTree.add" file="/home/troy/SysAssure/dataset/jmeter0.0/src/core/org/apache/jmeter/util/HashTree.java" start="435" end="447" isTest="false">
+		</clone>
+		<clone method="SortedHashTree.add" file="/home/troy/SysAssure/dataset/jmeter0.0/src/core/org/apache/jmeter/util/SortedHashTree.java" start="453" end="462" isTest="false">
+		</clone>
+	</group>
+	<group id="52" excluded="false">
+		<clone method="Minutes.minutesBetween" file="/home/troy/SysAssure/dataset/joda-time-2.7/src/main/java/org/joda/time/Minutes.java" start="101" end="102" isTest="false">
+			<test path="/home/troy/SysAssure/dataset/joda-time-2.7/src/test/java/org/joda/time/TestMinutes.java">TestMinutes.testFactory_minutesBetween_RInstant</test>
+		</clone>
+		<clone method="Seconds.secondsBetween" file="/home/troy/SysAssure/dataset/joda-time-2.7/src/main/java/org/joda/time/Seconds.java" start="104" end="105" isTest="false">
+			<test path="/home/troy/SysAssure/dataset/joda-time-2.7/src/test/java/org/joda/time/TestSeconds.java">TestSeconds.testFactory_secondsBetween_RInstant</test>
+		</clone>
+	</group>
+</data>
