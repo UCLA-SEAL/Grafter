@@ -1,8 +1,7 @@
 # Grafter
 Automated Transplantation and Differential Testing for Clones (ICSE 2017)
 
-
-## Summary of HeteroFuzz 
+## Summary of Grafter 
 Code clones are common in software. When applying similar edits to clones, developers often find it difficult to examine the runtime behavior of clones. The problem is exacerbated when some clones are tested, while their counterparts are not. To reuse tests for similar but not identical clones, Grafter transplants one clone to its counterpart by (1) identifying variations in identifier names, types, and method call targets, (2) resolving compilation errors caused by such variations through code transformation, and (3) inserting stub code to transfer input data and intermediate output values for examination. To help developers examine behavioral differences between clones, Grafter supports fine-grained differential testing at both the test outcome level and the intermediate program state level.
 In our evaluation on three open source projects, Grafter successfully reuses tests in 94% of clone pairs without inducing build errors, demonstrating its automated code transplantation capability. To examine the robustness of Grafter, we systematically inject faults using a mutation testing tool, Major, and detect behavioral differences induced by seeded faults. Compared with a static cloning bug finder, Grafter detects 31% more mutants using the test-level comparison and almost 2X more using the state-level comparison. This result indicates that Grafter should effectively complement static cloning bug finders.
 
@@ -10,7 +9,7 @@ In our evaluation on three open source projects, Grafter successfully reuses tes
 This project is developed by Professor [Miryung Kim](http://web.cs.ucla.edu/~miryung/)'s Software Engineering and Analysis Laboratory at UCLA. 
 If you encounter any problems, please open an issue or feel free to contact us:
 
-[Tianyi Zhang](https://https://tianyi-zhang.github.io): PhD student and now an assistant professor at Purdue; tianyi@purdue.edu
+[Tianyi Zhang](https://https://tianyi-zhang.github.io): was a PhD student at UCLA and now an assistant professor at Purdue; tianyi@purdue.edu
 
 [Miryung Kim](http://web.cs.ucla.edu/~miryung/): Professor at UCLA; miryung@cs.ucla.edu
 
